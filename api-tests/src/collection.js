@@ -8,7 +8,7 @@ import logout from './requests/logout.js';
 import notLoggedInCheck from './requests/not-logged-in-check.js';
 import createPetNotAsAdmin from './requests/create-pet-not-as-admin.js';
 
-export const name = 'PetTest';
+export const name = 'PetTestLogin';
 
 export function preRequest() {
   pm.variables.set('baseUrl', 'http://localhost:5001/api');
