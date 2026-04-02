@@ -1,0 +1,27 @@
+The type definition files in this directory are derived from:
+
+- postman-collection (https://github.com/postmanlabs/postman-collection)
+- postman-sandbox (https://github.com/postmanlabs/postman-sandbox)
+
+Both are licensed under the Apache License, Version 2.0.
+
+Modifications were made to convert module-scoped declarations to global
+declarations and to merge type augmentations for use with post-they.
+
+---
+
+Apache License, Version 2.0
+
+Copyright (c) Postman, Inc.
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.

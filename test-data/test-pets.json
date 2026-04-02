@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Whiskers",
+    "species": "cat"
+  },
+  {
+    "name": "Bubbles",
+    "species": "goldfish"
+  },
+  {
+    "name": "Thumper",
+    "species": "rabbit"
+  },
+  {
+    "name": "Polly",
+    "species": "parrot"
+  },
+  {
+    "name": "Spike",
+    "species": "hedgehog"
+  }
+]

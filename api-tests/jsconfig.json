@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "checkJs": true,
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "lib": [
+      "ESNext"
+    ]
+  },
+  "include": [
+    "**/*.js",
+    "post-they-types/**/*.d.ts"
+  ]
+}
