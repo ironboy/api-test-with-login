@@ -1,5 +1,9 @@
 .DS_Store
 
+# In the api-tests folder
+# Git ignore collection.json since it will be recreated by runnin npm run build
+api-tests/collection.json
+
 # Logs
 logs
 *.log
