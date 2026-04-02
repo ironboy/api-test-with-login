@@ -3,6 +3,10 @@ import createPets from './requests/create-pets.js';
 import readPets from './requests/read-pets.js';
 import updatePets from './requests/update-pets.js';
 import deletePets from './requests/delete-pets.js';
+import loginAsAdmin from './requests/login-as-admin.js';
+import logout from './requests/logout.js';
+import notLoggedInCheck from './requests/not-logged-in-check.js';
+import createPetNotAsAdmin from './requests/create-pet-not-as-admin.js';
 
 export const name = 'PetTest';
 
@@ -12,9 +16,13 @@ export function preRequest() {
 
 export const order = [
   getAllPets,
+  loginAsAdmin,
   createPets,
   readPets,
   updatePets,
   readPets,
-  deletePets
+  deletePets,
+  logout,
+  notLoggedInCheck,
+  createPetNotAsAdmin
 ];
